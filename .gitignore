@@ -1,0 +1,51 @@
+# 환경 변수 및 민감한 정보
+.env
+.env.local
+.env.*.local
+
+# Python 캐시 및 컴파일 파일
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 크롤링된 데이터 파일
+*.json
+!**/package*.json  # package.json은 유지 (있다면)
+
+# 로그 파일
+*.log
+*.log.backup
+
+# 쿠키 및 세션 파일 (로그인 정보 포함)
+*.pkl
+
+# 임시 파일
+permalink.txt
+*.backup
+*.tmp
+
+# IDE 설정 (선택사항)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# 가상환경 (venv, virtualenv 등)
+venv/
+env/
+ENV/
+.venv
+
+# Selenium 관련 (ChromeDriver 등)
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
+
